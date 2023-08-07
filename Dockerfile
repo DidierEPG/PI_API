@@ -1,6 +1,6 @@
-FROM node:16.18.0
+FROM node:16.20.1
 
-WORKDIR /usr/src/app/backend
+WORKDIR /usr/src/app/api
 
 COPY package.json ./
 
